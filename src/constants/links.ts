@@ -1,1 +1,1 @@
-export const DONATION_URL = 'https://ko-fi.com/nixonsu'
+export const DONATION_URL = 'https://github.com/Retro788'

@@ -12,7 +12,7 @@ const TrackSelector = ({ onClose }: Props) => {
   const { trackStore } = useRootStore()
 
   return (
-    <Modal title={'track selection'} onClose={onClose}>
+    <Modal title={'Selecciona tu estacion'} onClose={onClose}>
       <div className="grid h-full w-full grid-cols-fluid gap-x-4 gap-y-4 overflow-y-scroll p-4">
         {trackStore.tracks.map((track) => (
           <ScaleAnimation key={track.id} scaleFactor={1.02}>

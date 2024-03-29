@@ -51,7 +51,7 @@ function App() {
         <FullScreenContainer className={`z-10 bg-black`}>
           <div className="absolute inset-0 flex items-center justify-center text-white">
             <Typewriter
-              words={['welcome to lofi lounge']}
+              words={['Bienvenido a la radio Lo-Fi']}
               typeSpeed={50}
               cursorBlinking={true}
               cursor={true}
@@ -117,7 +117,7 @@ function App() {
               >
                 <div className="animate-flicker flex gap-4 items-center">
                   <IconButton className={'pt-1'} icon={<CoffeeIcon />} />
-                  <p className="text-xs">Buy me a coffee</p>
+                  <p className="text-xs">Mi perfil de GitHub</p>
                 </div>
               </OpaqueContainer>
             </ScaleAnimation>

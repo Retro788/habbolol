@@ -41,7 +41,7 @@ const sounds = [
 
 const SoundPlayerCollection = ({ onClose, className }: Props) => {
   return (
-    <Popup className={`${className} h-full`} onClose={onClose} title={'sounds'}>
+    <Popup className={`${className} h-full`} onClose={onClose} title={'sonidos'}>
       <div className="flex flex-col gap-4 overflow-y-scroll pr-4">
         {sounds.map((sound) => (
           <SoundPlayer

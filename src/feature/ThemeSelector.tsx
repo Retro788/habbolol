@@ -12,7 +12,7 @@ const themes: Color[] = ['green', 'purple', 'yellow', 'blue', 'pink', 'gray']
 
 const ThemeSelector = ({ handleSelect, onClose, currentTheme }: Props) => {
   return (
-    <Popup title="THEME" onClose={onClose}>
+    <Popup title="Tema" onClose={onClose}>
       <div className="grid grid-cols-3 grid-rows-2 gap-x-4 gap-y-4 overflow-y-scroll rounded-md p-4">
         {themes.map((theme) => (
           <ScaleAnimation key={theme} scaleFactor={1.1}>
